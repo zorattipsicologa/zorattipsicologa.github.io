@@ -17,6 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Sono Giulia e faccio la pazza. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie tellus quis elit venenatis ultrices id eu sem. Phasellus sit amet odio vitae odio ornare sollicitudin vitae vitae lacus. In lobortis, mauris quis dignissim porta, ligula felis sodales erat, a bibendum lorem nunc eget ex. Vivamus quis tristique magna, a bibendum ipsum. Donec sagittis maximus lorem, sed ultrices dolor pretium at. Fusce diam lectus, finibus sit amet lobortis ac, malesuada quis ex. Nullam in felis semper, lobortis diam porttitor, eleifend dolor. Aenean egestas eget orci eu finibus. Fusce eleifend euismod nisi, id commodo urna vestibulum et. 
 
 <!-- Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

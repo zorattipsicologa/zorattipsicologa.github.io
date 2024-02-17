@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
+title: Inizio attività terapeutica
+date: 2024-01-10 16:11:00-0400
+inline: false
 related_posts: false
 ---
 
-A simple inline announcement.
+Ho il piacere di annunciarvi che ho aperto la mia attività di libera professionista come psicologa-psicoterapeuta!

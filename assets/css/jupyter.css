@@ -225,10 +225,10 @@ body[data-jp-theme-light="false"] {
     * Use these against the brand/accent/warn/error colors.
     * These will typically go from light to darker, in both a dark and light theme.
     */
-  --jp-ui-inverse-font-color0: rgba(0, 0, 0, 1);
-  --jp-ui-inverse-font-color1: rgba(0, 0, 0, 0.8);
-  --jp-ui-inverse-font-color2: rgba(0, 0, 0, 0.5);
-  --jp-ui-inverse-font-color3: rgba(0, 0, 0, 0.3);
+  --jp-ui-inverse-font-color0: #7c4c3a;
+  --jp-ui-inverse-font-color1: #7c4c3a;
+  --jp-ui-inverse-font-color2: #7c4c3a;
+  --jp-ui-inverse-font-color3: #7c4c3a;
 
   /* Content Fonts
     *

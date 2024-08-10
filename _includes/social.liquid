@@ -99,6 +99,16 @@
     {{ site.guida_psicologi_code | strip_newlines }}
   </div>
 {% endif %}
+{% if guida_psicologi_code2 %}
+  <div class="extended-widget">
+    {{ guida_psicologi_code2 | strip_newlines }}
+  </div>
+{% endif %}
+{% if site.guida_psicologi_code3 %}
+  <div class="dynamic-widget">
+    {{ site.guida_psicologi_code3 | strip_newlines }}
+  </div>
+{% endif %}
 {% if site.facebook_id %}
   <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
 {% endif %}

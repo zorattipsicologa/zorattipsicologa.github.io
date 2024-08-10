@@ -103,6 +103,19 @@ guida_psicologi_code: >
       </a>
     </div>
   </div>
+guida_psicologi_code2: >   
+  <div id="js_widget" class="ie-common-widget ie-reviews">
+    <script type="text/javascript" src="https://www.guidapsicologi.it/widget/review_extended?com=195463&h=f320fe3bf97546ef2699a46c4942c521&v=10"></script>
+    <div class="portal-by">
+      <a id="js_portal_by" href="https://www.guidapsicologi.it?utm_source=195463&utm_medium=widget&utm_campaign=widget-review_extended" rel="nofollow" style="text-decoration:none;color:#617d97;font-family:Hind,sans-serif;">
+        Da <span style='color:#149c97;font-family:Hind,sans-serif;font-weight:400;letter-spacing: 0.015em;text-decoration:underline;'>GuidaPsicologi.it</span>
+      </a>
+    </div>
+  </div>
+guida_psicologi_code3: >
+  <div id="ie_dynamic_widget" data-base-color="">
+    <script type="text/javascript" src="https://www.guidapsicologi.it/widget/company_schedule?com=195463&h=f320fe3bf97546ef2699a46c4942c521&v=10&utm_source=195463&utm_medium=widget&utm_campaign=widget-company_schedule"></script>
+  </div>
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)

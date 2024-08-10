@@ -15,9 +15,6 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-Sono una **psicologa ad orientamento cognitivo-comportamentale**. I miei punti saldi sono l'empatia, la professionalità, l'accoglienza e l'assenza di giudizio per i diversi percorsi di vita e sensibilità. Ritengo fondamentale che il percorso di terapia sia su misura per ogni paziente e basato sulle evidenze scientifiche. Offro un supporto professionale per affrontare tutte le problematiche legate all'**ansia** e alla **depressione**. Ho anche un esperienza pluriennale di supporto nel **metodo di studio**, sia nei confronti degli studenti universitari che per gli alunni con disturbi dell'apprendimento. Contattami ora per una **consulenza iniziale online o in presenza a Trento** e scopri come possiamo lavorare insieme per raggiungere i tuoi obiettivi.
-
 Sono **La Dott.ssa Giulia Maria Zoratti psicologa ad orientamento cognitivo-comportamentale**.
 Svolgo la mia attività a Trento e online.
 Offro un supporto professionale per affrontare tutte le problematiche legate a:

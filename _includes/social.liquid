@@ -94,19 +94,14 @@
 {% if site.instagram_id %}
   <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
 {% endif %}
-{% if site.guida_psicologi_code %}
-  <div class="custom-widget">
-    {{ site.guida_psicologi_code | strip_newlines }}
-  </div>
-{% endif %}
-{% if guida_psicologi_code2 %}
-  <div class="extended-widget">
-    {{ guida_psicologi_code2 | strip_newlines }}
-  </div>
-{% endif %}
-{% if site.guida_psicologi_code3 %}
-  <div class="dynamic-widget">
-    {{ site.guida_psicologi_code3 | strip_newlines }}
+{% if site.guida_psicologi_code or site.guida_psicologi_code3 %}
+  <div class="guida-widgets-container">
+    <div class="guida-widget">
+      {{ site.guida_psicologi_code | strip_newlines }}
+    </div>
+    <div class="guida-widget">
+      {{ site.guida_psicologi_code3 | strip_newlines }}
+    </div>
   </div>
 {% endif %}
 {% if site.facebook_id %}

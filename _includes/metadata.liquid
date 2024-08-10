@@ -201,16 +201,12 @@
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.guida_psicologi_code %}
-    {% capture custom_widget %}{{ site.guida_psicologi_code }}{% endcapture %}
-    {% assign sameaslinks = sameaslinks | push: custom_widget %}
-  {% endif %}
-  {% if site.guida_psicologi_code2 %}
-    {% capture extended_widget %}{{ site.guida_psicologi_code2 }}{% endcapture %}
-    {% assign sameaslinks = sameaslinks | push: extended_widget %}
+    {% capture guida_psicologi_widget %}{{ site.guida_psicologi_code }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: guida_psicologi_widget %}
   {% endif %}
   {% if site.guida_psicologi_code3 %}
-    {% capture dynamic_widget %}{{ site.guida_psicologi_code3}}{% endcapture %}
-    {% assign sameaslinks = sameaslinks | push: dynamic_widget %}
+    {% capture guida_psicologi_widget3 %}{{ site.guida_psicologi_code3 }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: guida_psicologi_widget3 %}
   {% endif %}
   {% if site.facebook_id %}
     {% capture link %}https://facebook.com/{{ site.facebook_id }}{% endcapture %}

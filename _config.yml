@@ -103,6 +103,7 @@ instagram_id: psicologia_tra_le_pagine # your instagram id
 #       </a>
 #     </div>
 #   </div>
+
 guida_psicologi_code2: >   
   <div id="js_widget" class="ie-common-widget ie-reviews">
     <script type="text/javascript" src="https://www.guidapsicologi.it/widget/review_extended?com=195463&h=f320fe3bf97546ef2699a46c4942c521&v=10"></script>

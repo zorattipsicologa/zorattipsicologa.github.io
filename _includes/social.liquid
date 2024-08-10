@@ -94,6 +94,11 @@
 {% if site.instagram_id %}
   <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
 {% endif %}
+{% if site.guida_psicologi_code %}
+  <div class="custom-widget">
+    {{ site.guida_psicologi_code | strip_newlines }}
+  </div>
+{% endif %}
 {% if site.facebook_id %}
   <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
 {% endif %}

@@ -200,6 +200,10 @@
     {% capture link %}https://instagram.com/{{ site.instagram_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
+  {% if site.guida_psicologi_code %}
+    {% capture custom_widget %}{{ site.guida_psicologi_code }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: custom_widget %}
+  {% endif %}
   {% if site.facebook_id %}
     {% capture link %}https://facebook.com/{{ site.facebook_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}

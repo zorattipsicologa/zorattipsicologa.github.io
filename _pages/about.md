@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Psicologa e Psicoterepeuta Cognitivo Comportamentale
+subtitle: Psicologa e Psicoterapeuta Cognitivo Comportamentale
 
 profile:
   align: right

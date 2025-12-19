@@ -15,7 +15,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Sono **La Dott.ssa Giulia Maria Zoratti psicologa e psicotereapeuta ad orientamento cognitivo-comportamentale**.
+Sono **La Dott.ssa Giulia Maria Zoratti psicologa e psicoterapeuta ad orientamento cognitivo-comportamentale**.
 Svolgo la mia attività a Bolzano, Trento e online.
 Offro un supporto professionale per affrontare tutte le problematiche legate a:
   - **ansia**

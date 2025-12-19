@@ -5,48 +5,50 @@
         "email": "giuliamaria.zoratti.psicologa@gmail.com"
     },
     "work": [
-        {
-            "name": "Libera Professione",
-            "position": "   Psicologa - Psicoterapeuta",
-            "startDate": "01-2024",
-            "endDate": ""
-        },
-        {
-            "name": "GAM Medical",
-            "position": "   Psicologa - Psicoterapeuta",
-            "startDate": "06-2025",
-            "endDate": ""
-        },
-        {
-            "name": "Istituto Italiano di Tecnologia",
-            "position": "   Assistente di Ricerca",
-            "startDate": "06-2024",
-            "endDate": "06-2025"
-        },
-        {
-            "name": "Osservazione Diagnosi e Formazione (ODF) Lab",
-            "position": "   Psicologa",
-            "startDate": "01-2023",
-            "endDate": "12-2024"
-        },
-        {
-            "name": "Associazione Periscopio - Trento",
-            "position": "   Tutor DSA e assistente educatrice scolastica",
-            "startDate": "04-2022",
-            "endDate": "12-2023"
-        },
-        {
-            "name": "Azienda Provinciale per i Servizi Sanitari (Trento)",
-            "position": "   Psicologa",
-            "startDate": "02-2022",
-            "endDate": "12-2022"
-        },
-        {
-            "name": "Cooperativa GSH",
-            "position": "   Assistente Educatrice",
-            "startDate": "02-2022",
-            "endDate": "06-2022"
-        }
+    {
+        "name": "GAM Medical",
+        "position": "Psicologa - Psicoterapeuta",
+        "startDate": "2025-06",
+        "endDate": null,
+        "current": true
+    },
+    {
+        "name": "Libera Professione",
+        "position": "Psicologa - Psicoterapeuta",
+        "startDate": "2024-01",
+        "endDate": null,
+        "current": true
+    },
+    {
+        "name": "Istituto Italiano di Tecnologia",
+        "position": "Assistente di Ricerca",
+        "startDate": "2024-06",
+        "endDate": "2025-06"
+    },
+    {
+        "name": "Osservazione Diagnosi e Formazione (ODF) Lab",
+        "position": "Psicologa",
+        "startDate": "2023-01",
+        "endDate": "2024-12"
+    },
+    {
+        "name": "Associazione Periscopio - Trento",
+        "position": "Tutor DSA e assistente educatrice scolastica",
+        "startDate": "2022-04",
+        "endDate": "2023-12"
+    },
+    {
+        "name": "Azienda Provinciale per i Servizi Sanitari (Trento)",
+        "position": "Psicologa",
+        "startDate": "2022-02",
+        "endDate": "2022-12"
+    },
+    {
+        "name": "Cooperativa GSH",
+        "position": "Assistente Educatrice",
+        "startDate": "2022-02",
+        "endDate": "2022-06"
+    }
     ],
     "volontariato": [],
     "education": [

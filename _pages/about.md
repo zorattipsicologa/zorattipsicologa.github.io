@@ -25,7 +25,7 @@ Offro un supporto professionale per affrontare tutte le problematiche legate a:
   - **depressione**
   - **ipocondria**
   - **autismo**
-  - **disturbi dell'apprendimento**, con lo scopo di aiutarli a trovare il metodo di studio più - veloce ed efficace.
+  - **disturbi dell'apprendimento**, con lo scopo di aiutarli a trovare il metodo di studio più veloce ed efficace.
   
 I miei punti saldi sono l'empatia, la professionalità, l'accoglienza e l'assenza di giudizio per i diversi percorsi di vita e sensibilità.
 

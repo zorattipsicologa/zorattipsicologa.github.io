@@ -2,7 +2,7 @@
 layout: post
 title: Ansia - Trovare Equilibrio e Motivazione
 date: 2023-12-12 09:56:00-0400
-description: an example of a blog post with bibliography
+description: Di che cosa si tratta? Parliamone assieme
 tags: ansia
 categories: articles
 giscus_comments: false

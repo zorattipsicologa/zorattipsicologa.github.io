@@ -10,23 +10,25 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: true # includes a list of news items
+latest_posts: true # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
+
 Sono **La Dott.ssa Giulia Maria Zoratti psicologa e psicoterapeuta ad orientamento cognitivo-comportamentale**.
 Svolgo la mia attività a Bolzano, Trento e online.
 Offro un supporto professionale per affrontare tutte le problematiche legate a:
-  - **ansia**
-  - **stress**
-  - **fobie**
-  - **attacchi di panico**
-  - **depressione**
-  - **ipocondria**
-  - **autismo**
-  - **disturbi dell'apprendimento**, con lo scopo di aiutarli a trovare il metodo di studio più veloce ed efficace.
-  
+
+- **ansia**
+- **stress**
+- **fobie**
+- **attacchi di panico**
+- **depressione**
+- **ipocondria**
+- **autismo**
+- **disturbi dell'apprendimento**, con lo scopo di aiutarli a trovare il metodo di studio più veloce ed efficace.
+
 I miei punti saldi sono l'empatia, la professionalità, l'accoglienza e l'assenza di giudizio per i diversi percorsi di vita e sensibilità.
 
 In questi anni ho avuto la possibilità di collaborare con diverse realtà:

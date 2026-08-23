@@ -1,0 +1,112 @@
+{
+  "basics": {
+    "name": "Giulia Maria Zoratti",
+    "profession": "Psychologin - Psychotherapeutin",
+    "email": "giuliamaria.zoratti.psicologa@gmail.com"
+  },
+  "work": [
+    {
+      "name": "GAM Medical",
+      "position": "Psychologin - Psychotherapeutin",
+      "startDate": "2025-06",
+      "endDate": null,
+      "current": true
+    },
+    {
+      "name": "Libera Professione",
+      "position": "Psychologin - Psychotherapeutin (freiberuflich)",
+      "startDate": "2024-01",
+      "endDate": null,
+      "current": true
+    },
+    {
+      "name": "Istituto Italiano di Tecnologia",
+      "position": "Forschungsassistentin",
+      "startDate": "2024-06",
+      "endDate": "2025-06"
+    },
+    {
+      "name": "Osservazione Diagnosi e Formazione (ODF) Lab",
+      "position": "Psychologin",
+      "startDate": "2023-01",
+      "endDate": "2024-12"
+    },
+    {
+      "name": "Associazione Periscopio - Trento",
+      "position": "Lerntherapeutin (Lernstörungen) und schulische Assistenzpädagogin",
+      "startDate": "2022-04",
+      "endDate": "2023-12"
+    },
+    {
+      "name": "Azienda Provinciale per i Servizi Sanitari (Trento)",
+      "position": "Psychologin",
+      "startDate": "2022-02",
+      "endDate": "2022-12"
+    },
+    {
+      "name": "Cooperativa GSH",
+      "position": "Assistenzpädagogin",
+      "startDate": "2022-02",
+      "endDate": "2022-06"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Studi Cognitivi",
+      "area": "Kognitive Verhaltenspsychologie",
+      "studyType": "Postgraduale Fachausbildung",
+      "startDate": "2022",
+      "endDate": "2025"
+    },
+    {
+      "institution": "Università di Trento",
+      "area": "Psychologie - Neurowissenschaften",
+      "studyType": "Master",
+      "startDate": "2017",
+      "endDate": "2019"
+    },
+    {
+      "institution": "Università di Padova",
+      "area": "Psychologische Wissenschaften der Persönlichkeit und zwischenmenschlichen Beziehungen",
+      "studyType": "Bachelor",
+      "startDate": "2014",
+      "endDate": "2017"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Stipendium für Facharztausbildung im Gesundheitswesen",
+      "date": "2022",
+      "awarder": "Provincia Autonoma di Bolzano"
+    },
+    {
+      "title": "UAAR-Abschlusspreis - Beste Masterarbeit",
+      "date": "2020",
+      "awarder": "UAAR"
+    },
+    {
+      "title": "Stipendium für internationale Mobilität",
+      "date": "2019",
+      "awarder": "Università di Trento"
+    }
+  ],
+  "publications": [],
+  "skills": [],
+  "languages": [
+    {
+      "language": "Italienisch",
+      "fluency": "Muttersprache"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "C1 - Fortgeschritten"
+    },
+    {
+      "language": "Deutsch",
+      "fluency": "B2 - Mittelstufe"
+    }
+  ],
+  "references": [],
+  "projects": []
+}

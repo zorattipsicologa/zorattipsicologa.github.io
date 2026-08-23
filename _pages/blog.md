@@ -2,6 +2,10 @@
 layout: default
 permalink: /blog/
 title: blog
+lang: it
+translations:
+  en: /en/blog/
+  de: /de/blog/
 nav: true
 nav_order: 1
 pagination:

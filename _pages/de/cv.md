@@ -1,15 +1,14 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /de/cv/
 title: cv
-lang: it
-nav: true
-nav_order: 5
+lang: de
 cv_pdf: Zoratti_CV.pdf
-description:
+resume_data: resume_de
+description: Lebenslauf
 translations:
+  it: /cv/
   en: /en/cv/
-  de: /de/cv/
 toc:
   sidebar: left
 ---

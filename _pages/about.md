@@ -2,7 +2,11 @@
 layout: about
 title: about
 permalink: /
+lang: it
 subtitle: Psicologa e Psicoterapeuta Cognitivo Comportamentale
+translations:
+  en: /en/
+  de: /de/
 
 profile:
   align: right

@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text:
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: it # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌱 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zorattipsicologa.github.io # the base hostname & protocol for your site
@@ -59,6 +59,46 @@ max_width: 800px
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Languages
+# -----------------------------------------------------------------------------
+
+enable_language_switcher: true
+languages:
+  - code: it
+    label: IT
+    home: /
+    profession: Psicologa Psicoterapeuta
+    news_label: novità
+    latest_posts_label: ultimi articoli
+    contact_note: Non esitare a scrivermi per ulteriori informazioni. Preferibilmente via mail.
+    news_collection: news
+    posts_collection: posts
+    news_url: /news/
+    blog_url: /blog/
+  - code: en
+    label: EN
+    home: /en/
+    profession: Psychologist Psychotherapist
+    news_label: news
+    latest_posts_label: latest posts
+    contact_note: Feel free to write to me for more information, preferably by email.
+    news_collection: en_news
+    posts_collection: en_posts
+    news_url: /en/news/
+    blog_url: /en/blog/
+  - code: de
+    label: DE
+    home: /de/
+    profession: Psychologin Psychotherapeutin
+    news_label: neuigkeiten
+    latest_posts_label: neueste beiträge
+    contact_note: Zögern Sie nicht, mir für weitere Informationen zu schreiben, bevorzugt per E-Mail.
+    news_collection: de_news
+    posts_collection: de_posts
+    news_url: /de/news/
+    blog_url: /de/blog/
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -177,6 +217,26 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  en_news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /en/news/:path/
+  de_news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /de/news/:path/
+  en_posts:
+    defaults:
+      layout: post
+    output: true
+    permalink: /en/blog/:title/
+  de_posts:
+    defaults:
+      layout: post
+    output: true
+    permalink: /de/blog/:title/
   projects:
     output: false
     permalink: /projects/:path/
@@ -467,6 +527,10 @@ vega-lite:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+  - data: resume_en
+    json: assets/json/resume.en.json
+  - data: resume_de
+    json: assets/json/resume.de.json
 jsonresume:
   - basics
   - work

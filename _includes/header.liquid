@@ -2,12 +2,14 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      {% include language.liquid %}
       {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+        <a class="navbar-brand title font-weight-lighter" href="{{ current_lang_home | relative_url }}">
           {% if site.title == 'blank' %}
-            {% if site.first_name %}
+            {% assign brand_profession = current_language.profession | default: site.first_name %}
+            {% if brand_profession %}
               <span class="font-weight-bold">
-                {{- site.first_name -}}
+                {{- brand_profession -}}
               </span>
             {% endif %}
             {% if site.middle_name %}
@@ -47,10 +49,10 @@
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+          <li class="nav-item {% if page.permalink == current_lang_home %}active{% endif %}">
+            <a class="nav-link" href="{{ current_lang_home | relative_url }}">
               {{- about_title }}
-              {% if page.permalink == '/' %}
+              {% if page.permalink == current_lang_home %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -96,7 +98,13 @@
                 </li>
               {% else %}
                 <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
+                  {% if p.translations[current_lang] %}
+                    {% assign url = p.translations[current_lang] %}
+                  {% elsif p.permalink contains '/blog/' %}
+                    {% assign url = '/blog/' %}
+                  {% else %}
+                    {% assign url = p.url %}
+                  {% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
@@ -107,6 +115,35 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if site.enable_language_switcher and site.languages %}
+            <!-- Language switcher -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="langDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                {{- current_lang | upcase }}
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
+                {% for language in site.languages %}
+                  {% assign lang_url = language.home %}
+                  {% if language.code == current_lang %}
+                    {% assign lang_url = page.permalink | default: page.url %}
+                  {% elsif page.translations[language.code] %}
+                    {% assign lang_url = page.translations[language.code] %}
+                  {% endif %}
+                  <a class="dropdown-item {% if language.code == current_lang %}active{% endif %}" href="{{ lang_url | relative_url }}">
+                    {{- language.label -}}
+                  </a>
+                {% endfor %}
+              </div>
+            </li>
+          {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">

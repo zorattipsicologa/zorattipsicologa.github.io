@@ -1,8 +1,10 @@
+{% include language.liquid %}
+{% assign footer_profession = current_language.profession | default: site.first_name %}
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
+      {{ footer_profession }}
       {{ site.middle_name }}
       {{ site.last_name }}. {{ site.footer_text }}
       {% if site.impressum_path %}
@@ -17,7 +19,7 @@
   <footer class="sticky-bottom mt-5" role="contentinfo">
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
+      {{ footer_profession }}
       {{ site.middle_name }}
       {{ site.last_name }}. {{ site.footer_text }}
       {% if site.impressum_path %}

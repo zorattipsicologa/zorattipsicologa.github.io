@@ -1,0 +1,6 @@
+{% assign current_lang = page.lang | default: 'it' %}
+{% assign current_language = site.languages | where: 'code', current_lang | first %}
+{% unless current_language %}
+  {% assign current_language = site.languages | first %}
+{% endunless %}
+{% assign current_lang_home = current_language.home | default: '/' %}

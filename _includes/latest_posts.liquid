@@ -1,6 +1,8 @@
 <div class="news">
+  {% assign posts_collection_name = include.collection | default: 'posts' %}
+  {% assign posts_source = site[posts_collection_name] %}
   {% if site.latest_posts != blank %}
-    {% assign latest_posts_size = site.posts | size %}
+    {% assign latest_posts_size = posts_source | size %}
     <div
       class="table-responsive"
       {% if site.latest_posts.scrollable and latest_posts_size > 3 %}
@@ -8,7 +10,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign latest_posts = site.posts %}
+        {% assign latest_posts = posts_source %}
         {% if site.latest_posts.limit %}
           {% assign latest_posts_limit = site.latest_posts.limit %}
         {% else %}

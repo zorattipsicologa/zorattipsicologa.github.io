@@ -260,12 +260,18 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
-  a:hover {
+  a:not(.active):hover {
     color: var(--global-hover-color);
   }
 
   .dropdown-divider {
     border-top: 1px solid var(--global-divider-color) !important;
+  }
+
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background-color: var(--global-hover-color);
+    color: var(--global-bg-color) !important;
   }
 }
 
@@ -540,6 +546,13 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+}
+
+.profile-name {
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  font-size: clamp(1.1rem, 5.5vw, 2.5rem);
 }
 
 .post-list {

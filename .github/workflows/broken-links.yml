@@ -50,4 +50,4 @@ jobs:
           fail: true
           # removed md files that include liquid tags
           # excluded vendored demo/report files with third-party links that are not part of the site's own content
-          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path INSTALL.md --exclude-path assets/plotly/demo.html --exclude-path lighthouse_results --verbose --no-progress './**/*.md' './**/*.html'
+          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _pages/en/blog.md --exclude-path _pages/de/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path INSTALL.md --exclude-path assets/plotly/demo.html --exclude-path lighthouse_results --verbose --no-progress './**/*.md' './**/*.html'

@@ -73,6 +73,8 @@ languages:
     news_label: novità
     latest_posts_label: ultimi articoli
     contact_note: Non esitare a scrivermi per ulteriori informazioni. Preferibilmente via mail.
+    cta_label: Prenota una consulenza
+    cta_subject: Richiesta consulenza
     news_collection: news
     posts_collection: posts
     news_url: /news/
@@ -84,6 +86,8 @@ languages:
     news_label: news
     latest_posts_label: latest posts
     contact_note: Feel free to write to me for more information, preferably by email.
+    cta_label: Book a consultation
+    cta_subject: Consultation request
     news_collection: en_news
     posts_collection: en_posts
     news_url: /en/news/
@@ -95,6 +99,8 @@ languages:
     news_label: neuigkeiten
     latest_posts_label: neueste beiträge
     contact_note: Zögern Sie nicht, mir für weitere Informationen zu schreiben, bevorzugt per E-Mail.
+    cta_label: Termin vereinbaren
+    cta_subject: Terminanfrage
     news_collection: de_news
     posts_collection: de_posts
     news_url: /de/news/

@@ -384,6 +384,45 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Consultation CTA (navbar, about page)
+
+.cta-button {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 2rem;
+  background-color: var(--global-theme-color);
+  color: white !important;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+
+  i {
+    font-size: 0.8rem;
+  }
+
+  &:hover {
+    background-color: var(--global-hover-color);
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+html[data-theme="dark"] .cta-button {
+  background-color: var(--global-footer-bg-color);
+  color: var(--global-divider-color) !important;
+
+  &:hover {
+    background-color: var(--global-footer-bg-color);
+    color: var(--global-divider-color) !important;
+    opacity: 0.85;
+  }
+}
+
 // Social (bottom)
 
 .social {

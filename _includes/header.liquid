@@ -3,7 +3,19 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% include language.liquid %}
-      {% if page.permalink != '/' %}
+      {% if page.permalink == current_lang_home and site.email %}
+        <!-- Consultation CTA (about page) -->
+        {% assign cta_label = current_language.cta_label | default: 'Prenota una consulenza' %}
+        {% assign cta_subject = current_language.cta_subject | default: 'Richiesta consulenza' %}
+        <a
+          class="navbar-brand cta-button"
+          href="mailto:{{ site.email | encode_email }}?subject={{ cta_subject | url_encode }}"
+          title="{{ cta_label }}"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          {{ cta_label }}
+        </a>
+      {% elsif page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ current_lang_home | relative_url }}">
           {% if site.title == 'blank' %}
             {% assign brand_profession = current_language.profession | default: site.first_name %}

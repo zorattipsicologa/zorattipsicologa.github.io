@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: chi sono
 permalink: /
 lang: it
 subtitle: Psicologa e Psicoterapeuta Cognitivo Comportamentale
